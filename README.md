@@ -8,3 +8,7 @@ Web-based Rock-Paper-Scissors game, made as a project for the Web Developement C
 * HTML
 * CSS
 * JavaScript
+
+**Site access:**
+
+https://darainbowwarrior.github.io/Rock-Paper-Scissors-WebDev/
