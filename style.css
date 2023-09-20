@@ -1,3 +1,7 @@
+body {
+    background-color: aqua;
+}
+
 .RPSChoose {
     width: 200px;
     height: 200px;
@@ -7,6 +11,14 @@ h1,p {
     text-align: center;
 }
 
-#mainbox {
-    
+.aichoicebox {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.mainbox {
+    align-content: center;
 }
