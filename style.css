@@ -3,22 +3,6 @@ body {
 }
 
 .RPSChoose {
-    width: 200px;
-    height: 200px;
-}
-
-h1,p {
-    text-align: center;
-}
-
-.aichoicebox {
-    width: 200px;
-    height: 200px;
-    background-color: lightgray;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-.mainbox {
-    align-content: center;
+    width: 300px;
+    height: 300px;
 }
