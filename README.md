@@ -8,6 +8,7 @@ Web-based Rock-Paper-Scissors game, made as a project for the Web Developement C
 * HTML
 * CSS
 * JavaScript
+* Bootstrap 6
 
 **Site access:**
 
