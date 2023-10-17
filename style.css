@@ -12,6 +12,11 @@ body {
     height: 300px;
 }
 
+.aichoicebox {
+    display: flex;
+    justify-content: center;
+}
+
 .title {
     text-align: center;
     border: 10px solid black;
