@@ -74,32 +74,21 @@
 
         computerchoice = Math.floor(Math.random() * (3 - 1 + 1) + 1);
 
-        switch(computerchoice) {
-          case 1:
-            document.getElementById('aichoice').src="imgs/Paper.png"
-            break;
-          case 2:
-            document.getElementById('aichoice').src="imgs/Rock.png"
-            break;
-          case 3:
-            document.getElementById('aichoice').src="imgs/Scissors.png"
-            break;
-          default:
-            break;
-        }
-
         if(clicked_id == "paperbtn") {
 
           switch(computerchoice) {
             case 1:
+              document.getElementById('aichoice').src="imgs/Paper.png"
               document.getElementById("gameprogress").textContent="It's a draw!";
               document.getElementById("drawtext").textContent="Draw: " + ++draw;
               break;
             case 2:
+              document.getElementById('aichoice').src="imgs/Rock.png"
               document.getElementById("gameprogress").textContent="You Won!";
               document.getElementById("wontext").textContent="Won: " + ++won;
               break;
             case 3:
+              document.getElementById('aichoice').src="imgs/Scissors.png"
               document.getElementById("gameprogress").textContent="You Lost!";
               document.getElementById("losttext").textContent="Lost: " + ++lost;
               break;
@@ -112,14 +101,17 @@
 
           switch(computerchoice) {
             case 1:
+              document.getElementById('aichoice').src="imgs/Paper.png"
               document.getElementById("gameprogress").textContent="You Lost!";
               document.getElementById("losttext").textContent="Lost: " + ++lost;
               break;
             case 2:
+              document.getElementById('aichoice').src="imgs/Rock.png"
               document.getElementById("gameprogress").textContent="It's a draw!";
               document.getElementById("drawtext").textContent="Draw: " + ++draw;
               break;
             case 3:
+              document.getElementById('aichoice').src="imgs/Scissors.png"
               document.getElementById("gameprogress").textContent="You Won!";
               document.getElementById("wontext").textContent="Won: " + ++won;
               break;
@@ -132,14 +124,17 @@
 
           switch(computerchoice) {
             case 1:
+              document.getElementById('aichoice').src="imgs/Paper.png"
               document.getElementById("gameprogress").textContent="You Won!";
               document.getElementById("wontext").textContent="Won: " + ++won;
               break;
             case 2:
+              document.getElementById('aichoice').src="imgs/Rock.png"
               document.getElementById("gameprogress").textContent="You Lost!";
               document.getElementById("losttext").textContent="Lost: " + ++lost;
               break;
             case 3:
+              document.getElementById('aichoice').src="imgs/Scissors.png"
               document.getElementById("gameprogress").textContent="It's a draw!";
               document.getElementById("drawtext").textContent="Draw: " + ++draw;
               break;
